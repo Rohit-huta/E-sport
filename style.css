@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "abel", sans-serif;
+  background-color: rgba(0, 255, 255, 0.068);
+}
+
+li {
+  margin: 0px 40px;
+  list-style: none;
+}
+
+.nav-bar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 56px;
+}
+
+.nav-items {
+  display: flex;
+}
